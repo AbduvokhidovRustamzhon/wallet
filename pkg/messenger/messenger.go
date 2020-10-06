@@ -15,3 +15,4 @@ func (t *Telegram) Send(message string) bool {
 func (t *Telegram) Recieve() (message string, ok bool) {
 	return "", true
 }
+
